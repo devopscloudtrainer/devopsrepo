@@ -1,0 +1,23 @@
+Pull -> pull is used to download/get/update the remote changes in local repo.
+
+fetch - Fetch is part of pull, fetch will get the changes and keep in intermediate branch called origin or upstream.
+        further when you merge that to local it will update in local branch or repo
+
+git pull = fetch + merge
+===========================================================================================
+
+git fetch upstream  --- empty fetch all
+git checkout -b new_feature upstream/new_feature
+
+=========================
+git fetch upstream feature
+git checkout -b hotfix_testing upstream/feature
+
+=====================================================
+git checkout develop
+git fetch upstream develop
+git merge upstream/develop
+===================================================================================
+
+
+
